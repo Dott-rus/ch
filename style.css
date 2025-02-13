@@ -1,0 +1,73 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Тёмный фон */
+    color: #e0e0e0; /* Светлый текст */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Шапка */
+header {
+    background-color: #1f1f1f; /* Тёмный фон для шапки */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #333;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ffffff; /* Белый текст */
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+    color: #b0b0b0; /* Серый текст */
+}
+
+/* Основной контент */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #ffffff; /* Белый текст */
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+}
+
+section p {
+    color: #b0b0b0; /* Серый текст */
+}
+
+a {
+    color: #4dabf7; /* Голубая ссылка */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Подвал */
+footer {
+    background-color: #1f1f1f; /* Тёмный фон для подвала */
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    color: #b0b0b0; /* Серый текст */
+}

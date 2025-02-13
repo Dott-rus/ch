@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тёмная тема</title>
+    <script>
+        // Predefined text to copy
+        const predefinedText = "";
+
+        document.getElementById('copyButton').addEventListener('click', function() {
+            // Create a temporary textarea element to hold the text
+            const textarea = document.createElement('textarea');
+            textarea.value = predefinedText; // Set the value to the predefined text
+            document.body.appendChild(textarea);
+
+            // Select the text in the textarea
+            textarea.select();
+            textarea.setSelectionRange(0, 99999); // For mobile devices
+
+            // Copy the text to the clipboard
+            document.execCommand('copy');
+
+            // Remove the temporary textarea
+            document.body.removeChild(textarea);
+        });
+    </script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1></h1>
+    </header>
+
+    <main>
+
+        <section>
+            <h2></h2>
+            <p>1FnQRCAOs7t7hZgt2TkS0DCq_ELNSGQDq</p>
+            <button id="copyButton">Copy Text</button>
+        </section>
+
+    </main>
+
+    <footer>
+        <p><p style="text-align: left;">Думать не спешат,
+            <br>
+            Искры в глазах потухли,
+            <br>            
+            Сквозь тьму идут в страх.
+            <br>            
+            Крики в тишине,
+            <br>            
+            <a style="color: #b0b0b0bb;">Словно ветер в пустоте,
+            <br>            
+            Смысл ускользает.</a></p>
+            </p>
+            
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGMAAAAQCAIAAACN71atAAACPklEQVRYCe2XPW+DMBCG8zNgysYGe1aYmWH16JUxbGxs/OT2fL4v4yagVmqrRIoi1xzn83Pve1EvRVm9P08JXK/Xy9Ogd0BRVm9SR/30/0jV47LOrv7exGj95ruUEWT2vTXQbZiXoYHI3yfV+u0+3mx96R2OxDzOYJ427r5O7Y51hlQ3cVdekVQ9Ltne7EmJ9BoHpDACvtcNPqzAQHTwsIlalZh1Ml3a9efg02EOJ8K5KPKb2sG2650Qo/pclL3HmuGbZQKv+I4fRftQSWIo2OmmeOt1GlL39V5yBvfh/QkzHBPXIQv7GcJoQNTjQgenTjm7b5zVOB+dqMooKxMjpIAFlV2p8hBuBNf6jcuOaOgWARPxBUsqlZQhIYsG5xScobbgfczFC5AMNoq5JJOP908vDAWlTV2VieGqeBHf6r0SJje4sFNJDJU0IEVjpZcn1bh7hhSLOfrlrHa+ijcUQvVkB+mwiSFAGmVIzr3kRWibIaUNZcMSUgyBmidzSm5CpYi4oqYSw5+WjxxBxxe2sZqIBqH3pSquM2ZjFVgEipTOmRyNf7K3zIkhP5GKuq1wRkbp2lLgGHa4umr2/sc3VU36hrDO1y1VPZpTOfcxythjuBHPbDOntPRiMJHyjn90eEZK94gLTEf6rTnO4kkkloitkl+ixXs1PZMYaZiaCbKpiVcyp3aGKtBxeKPZtTyvu4mbxMUzqR+b0Jz6ry2UeB/PDQuaVPI6pDKGyvcyJ73430wy5/LvE9qXffqpqQ9F6C8ZkTt1WwAAAABJRU5ErkJggg==" alt="IT WILL ROLL OUT LATER" />
+    </footer>
+
+    
+</body>
+</html>
